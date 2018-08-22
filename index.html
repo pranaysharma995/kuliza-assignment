@@ -6,6 +6,13 @@
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="style.css" rel="stylesheet">
+    <style type="text/css">
+    .pd-30-0{
+    padding: 30px 0px;
+        }
+    .align-center{
+    text-align: center;
+        }</style>
     </head>
 <body ng-controller="ctrl">
     <div class="container-fluid">
@@ -26,7 +33,7 @@
     </div>
         <div class="col-md-12 form-group">
     <label for="name">Gender:</label>
-    <select name="gender" ng-model="gender" id="gender">
+    <select name="gender" ng-model="gender" id="gender"  class="form-control">
         <option value="male">Male</option>
         <option value="female">Female</option>
         </select>
